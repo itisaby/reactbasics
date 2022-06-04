@@ -1,19 +1,13 @@
-
-
-const Employee = (props) => {
-  return (
-    <div className="employee">
-      <h2>Your Name: {props.name}</h2>
-      <h3>Your CID: {props.cid}</h3>
-    </div>
-  );
-}
-
+import { Employee } from "./Props/propBasic";
+import Counter from "./State/Counter";
+import { StateBasic } from "./State/stateBasic";
 
 function App() {
   return (
     <div className="App">
       <Employee name="Arnab" cid="1"/>
+      <StateBasic/>
+      <Counter/>
     </div>
   );
 }
