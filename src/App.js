@@ -4,6 +4,7 @@ import TernaryConditional from "./ConditionalRendering/TernaryConditional";
 import BasicBinding from "./Events/BindingEvent/BasicBinding";
 import EventHandling from "./Events/EventHandling";
 import EventHandlingClass from "./Events/EventHandlingClass";
+import ControlledComponents from "./FormHandling/ControlledComponents";
 import ListofOBjects from "./ListRendering/ListofOBjects";
 import ListRendering from "./ListRendering/ListRendering";
 import ParentComponent from "./Props/MethodAsProps/ParentComponent";
@@ -37,6 +38,8 @@ function App() {
       <ListRendering/>
       <br/>
       <ListofOBjects/>
+      <br/>
+      <ControlledComponents/>
     </div>
   );
 }
