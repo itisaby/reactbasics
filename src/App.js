@@ -4,6 +4,8 @@ import TernaryConditional from "./ConditionalRendering/TernaryConditional";
 import BasicBinding from "./Events/BindingEvent/BasicBinding";
 import EventHandling from "./Events/EventHandling";
 import EventHandlingClass from "./Events/EventHandlingClass";
+import ListofOBjects from "./ListRendering/ListofOBjects";
+import ListRendering from "./ListRendering/ListRendering";
 import ParentComponent from "./Props/MethodAsProps/ParentComponent";
 import { Employee } from "./Props/propBasic";
 import Counter from "./State/Counter";
@@ -21,11 +23,20 @@ function App() {
         <EventHandling />
       </div>
       <EventHandlingClass/>
+      <br/>
       <BasicBinding/>
+      <br/>
       <ParentComponent/>
+      <br/>
       <ConditionBasic/>
+      <br/>
       <ElementVariables/>
+      <br/>
       <TernaryConditional/>
+      <br/>
+      <ListRendering/>
+      <br/>
+      <ListofOBjects/>
     </div>
   );
 }

@@ -10,7 +10,7 @@ export class ElementVariables extends Component {
     }
   render() {
     let message;
-    if(this.state.isLoggedIn){
+    if(this.state.isLoggedIn){ 
         message = <div>Welcome User</div>
     }else{
         message = <div>Login Guest</div>
