@@ -1,3 +1,6 @@
+import ConditionBasic from "./ConditionalRendering/ConditionBasic";
+import ElementVariables from "./ConditionalRendering/ElementVariables";
+import TernaryConditional from "./ConditionalRendering/TernaryConditional";
 import BasicBinding from "./Events/BindingEvent/BasicBinding";
 import EventHandling from "./Events/EventHandling";
 import EventHandlingClass from "./Events/EventHandlingClass";
@@ -20,6 +23,9 @@ function App() {
       <EventHandlingClass/>
       <BasicBinding/>
       <ParentComponent/>
+      <ConditionBasic/>
+      <ElementVariables/>
+      <TernaryConditional/>
     </div>
   );
 }
