@@ -24,8 +24,8 @@ class ParentComp extends Component {
     console.log('ParentComp Rendered')
     return (
       <div>ParentComp
-        {/* <RegularComp name={this.state.name} />
-        <PureComp name={this.state.name}/> */}
+        <RegularComp name={this.state.name} />
+        <PureComp name={this.state.name}/>
         {/* using memo in functional component */}
         <MemoComp name={this.state.name}/>
       </div>
