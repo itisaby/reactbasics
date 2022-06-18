@@ -13,6 +13,7 @@ import ListofOBjects from "./ListRendering/ListofOBjects";
 import ListRendering from "./ListRendering/ListRendering";
 import ParentComponent from "./Props/MethodAsProps/ParentComponent";
 import { Employee } from "./Props/propBasic";
+import RefsBasics from "./Refs/RefsBasics";
 import Counter from "./State/Counter";
 import { StateBasic } from "./State/stateBasic";
 
@@ -52,6 +53,8 @@ function App() {
       <Fragment/>
       <br/>
       <Table/>
+      <br/>
+      <RefsBasics/>
     </div>
   );
 }
