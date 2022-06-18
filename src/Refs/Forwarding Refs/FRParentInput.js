@@ -6,9 +6,11 @@ class FRParentInput extends Component {
       super(props)
         this.inputRef = React.createRef();
     }
+    
     clickHandler = () => {
         this.inputRef.current.focus();
     }
+
   render() {
     return (
       <div>
