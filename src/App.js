@@ -1,6 +1,8 @@
 import ConditionBasic from "./ConditionalRendering/ConditionBasic";
 import ElementVariables from "./ConditionalRendering/ElementVariables";
 import TernaryConditional from "./ConditionalRendering/TernaryConditional";
+import ErrorBoundary from "./Error Boundary/ErrorBoundary";
+import Hero from "./Error Boundary/Hero";
 import BasicBinding from "./Events/BindingEvent/BasicBinding";
 import EventHandling from "./Events/EventHandling";
 import EventHandlingClass from "./Events/EventHandlingClass";
@@ -68,6 +70,16 @@ function App() {
       <FRParentInput/>
       <br/>
       <PortalsBasics/>
+      <br/>
+      <ErrorBoundary>
+        <Hero heroName="Batman"/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Superhero"/>
+      </ErrorBoundary> 
+      <ErrorBoundary>
+        <Hero heroName="Joker"/>
+      </ErrorBoundary>
     </div>
   );
 }
