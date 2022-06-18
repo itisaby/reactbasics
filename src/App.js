@@ -15,6 +15,7 @@ import ParentComponent from "./Props/MethodAsProps/ParentComponent";
 import { Employee } from "./Props/propBasic";
 import ParentComp from "./PureComponent/ParentComp";
 import PureComp from "./PureComponent/PureComp";
+import FRParentInput from "./Refs/Forwarding Refs/FRParentInput";
 import FocusInput from "./Refs/Refs in Class Component/FocusInput";
 import RefsBasics from "./Refs/RefsBasics";
 import Counter from "./State/Counter";
@@ -62,6 +63,8 @@ function App() {
       <ParentComp/>
       <br/>
       <FocusInput/>
+      <br/>
+      <FRParentInput/>
     </div>
   );
 }
