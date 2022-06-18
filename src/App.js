@@ -5,6 +5,8 @@ import BasicBinding from "./Events/BindingEvent/BasicBinding";
 import EventHandling from "./Events/EventHandling";
 import EventHandlingClass from "./Events/EventHandlingClass";
 import ControlledComponents from "./FormHandling/ControlledComponents";
+import Fragment from "./Fragments/Fragment";
+import Table from "./Fragments/Table";
 import LifeCycle from "./LifeCycle Methods/LifeCycle";
 import UpdatingLifeCycle from "./LifeCycle Methods/UpdatingLifeCycle";
 import ListofOBjects from "./ListRendering/ListofOBjects";
@@ -46,6 +48,10 @@ function App() {
       <LifeCycle/>
       <br/>
       <UpdatingLifeCycle/>
+      <br/>
+      <Fragment/>
+      <br/>
+      <Table/>
     </div>
   );
 }
