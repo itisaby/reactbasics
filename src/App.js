@@ -11,6 +11,7 @@ import LifeCycle from "./LifeCycle Methods/LifeCycle";
 import UpdatingLifeCycle from "./LifeCycle Methods/UpdatingLifeCycle";
 import ListofOBjects from "./ListRendering/ListofOBjects";
 import ListRendering from "./ListRendering/ListRendering";
+import PortalsBasics from "./Portals/PortalsBasics";
 import ParentComponent from "./Props/MethodAsProps/ParentComponent";
 import { Employee } from "./Props/propBasic";
 import ParentComp from "./PureComponent/ParentComp";
@@ -65,6 +66,8 @@ function App() {
       <FocusInput/>
       <br/>
       <FRParentInput/>
+      <br/>
+      <PortalsBasics/>
     </div>
   );
 }
