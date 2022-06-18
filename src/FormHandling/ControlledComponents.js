@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export class ControlledComponents extends Component {
     constructor(props) {
       super(props)
-    
       this.state = {
          name: "",
          Comment: "",

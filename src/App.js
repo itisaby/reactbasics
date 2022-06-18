@@ -5,6 +5,8 @@ import BasicBinding from "./Events/BindingEvent/BasicBinding";
 import EventHandling from "./Events/EventHandling";
 import EventHandlingClass from "./Events/EventHandlingClass";
 import ControlledComponents from "./FormHandling/ControlledComponents";
+import LifeCycle from "./LifeCycle Methods/LifeCycle";
+import UpdatingLifeCycle from "./LifeCycle Methods/UpdatingLifeCycle";
 import ListofOBjects from "./ListRendering/ListofOBjects";
 import ListRendering from "./ListRendering/ListRendering";
 import ParentComponent from "./Props/MethodAsProps/ParentComponent";
@@ -40,6 +42,10 @@ function App() {
       <ListofOBjects/>
       <br/>
       <ControlledComponents/>
+      <br/>
+      <LifeCycle/>
+      <br/>
+      <UpdatingLifeCycle/>
     </div>
   );
 }
