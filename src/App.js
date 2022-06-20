@@ -1,6 +1,7 @@
 import ConditionBasic from "./ConditionalRendering/ConditionBasic";
 import ElementVariables from "./ConditionalRendering/ElementVariables";
 import TernaryConditional from "./ConditionalRendering/TernaryConditional";
+import ContextBasics from "./Context/ContextBasics";
 import ErrorBoundary from "./Error Boundary/ErrorBoundary";
 import Hero from "./Error Boundary/Hero";
 import BasicBinding from "./Events/BindingEvent/BasicBinding";
@@ -108,6 +109,8 @@ function App() {
       <HoverCounter2/>
       <br/>
       <User render={(isLoggedIn)=> isLoggedIn?"Arnab":"Guest"}/> */}
+      <br/>
+      <ContextBasics/>
     </div>
   );
 }
