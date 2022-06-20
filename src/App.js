@@ -12,6 +12,8 @@ import Fragment from "./Fragments/Fragment";
 import Table from "./Fragments/Table";
 import ClickCounter from "./Higher Order Components/ClickCounter";
 import HoverCounter from "./Higher Order Components/HoverCounter";
+import AxiosBasics from "./HTTP/AxiosBasics";
+import AxiosBasicsPost from "./HTTP/AxiosBasicsPost";
 import LifeCycle from "./LifeCycle Methods/LifeCycle";
 import UpdatingLifeCycle from "./LifeCycle Methods/UpdatingLifeCycle";
 import ListofOBjects from "./ListRendering/ListofOBjects";
@@ -111,6 +113,10 @@ function App() {
       <User render={(isLoggedIn)=> isLoggedIn?"Arnab":"Guest"}/> */}
       <br/>
       <ContextBasics/>
+      <br/>
+      <AxiosBasics/>
+      <br/>
+      <AxiosBasicsPost/>
     </div>
   );
 }
