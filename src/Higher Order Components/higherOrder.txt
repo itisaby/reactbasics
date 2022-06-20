@@ -1,0 +1,6 @@
+Higher Order Component
+A pattern where a function takes a component as an argument and returns a new component .
+const NewComponent = higherOrderComponent(originalComponent)
+const EnhancedComponent = higherOrderComponent(originalComponent)
+
+ex - const IronMan = withSuit(Tony Stark)

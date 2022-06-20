@@ -9,6 +9,8 @@ import EventHandlingClass from "./Events/EventHandlingClass";
 import ControlledComponents from "./FormHandling/ControlledComponents";
 import Fragment from "./Fragments/Fragment";
 import Table from "./Fragments/Table";
+import ClickCounter from "./Higher Order Components/ClickCounter";
+import HoverCounter from "./Higher Order Components/HoverCounter";
 import LifeCycle from "./LifeCycle Methods/LifeCycle";
 import UpdatingLifeCycle from "./LifeCycle Methods/UpdatingLifeCycle";
 import ListofOBjects from "./ListRendering/ListofOBjects";
@@ -80,6 +82,10 @@ function App() {
       <ErrorBoundary>
         <Hero heroName="Joker"/>
       </ErrorBoundary>
+      <br/>
+      <ClickCounter name="Arnab"/>
+      <br/>
+      <HoverCounter/>
     </div>
   );
 }
