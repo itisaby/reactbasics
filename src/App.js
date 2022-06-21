@@ -12,6 +12,7 @@ import Fragment from "./Fragments/Fragment";
 import Table from "./Fragments/Table";
 import ClickCounter from "./Higher Order Components/ClickCounter";
 import HoverCounter from "./Higher Order Components/HoverCounter";
+import HookMouse from "./Hooks/UseEffect Hook/HookMouse";
 import UseEffectBasic from "./Hooks/UseEffect Hook/UseEffectBasic";
 import UseState2 from "./Hooks/UseState Hook/UseState2";
 import UseStateBasic from "./Hooks/UseState Hook/UseStateBasic";
@@ -135,6 +136,8 @@ function App() {
         <br/>
         <h2>UseEffect</h2>
         <UseEffectBasic/>
+        <br/>
+        <HookMouse/>
       </div>
     </div>
   );
