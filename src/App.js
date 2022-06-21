@@ -12,7 +12,9 @@ import Fragment from "./Fragments/Fragment";
 import Table from "./Fragments/Table";
 import ClickCounter from "./Higher Order Components/ClickCounter";
 import HoverCounter from "./Higher Order Components/HoverCounter";
+import DataFetching from "./Hooks/UseEffect Hook/DataFetching";
 import HookMouse from "./Hooks/UseEffect Hook/HookMouse";
+import IndividualData from "./Hooks/UseEffect Hook/IndividualData";
 import IntervalHookCounter from "./Hooks/UseEffect Hook/IntervalHookCounter";
 import MouseContainer from "./Hooks/UseEffect Hook/MouseContainer";
 import UseEffectBasic from "./Hooks/UseEffect Hook/UseEffectBasic";
@@ -145,6 +147,10 @@ function App() {
         <MouseContainer/>
         <br/>
         <IntervalHookCounter/>
+        <br/>
+        <DataFetching/>
+        <br/>
+        <IndividualData/>
       </div>
     </div>
   );
