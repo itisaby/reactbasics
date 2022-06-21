@@ -12,6 +12,10 @@ import Fragment from "./Fragments/Fragment";
 import Table from "./Fragments/Table";
 import ClickCounter from "./Higher Order Components/ClickCounter";
 import HoverCounter from "./Higher Order Components/HoverCounter";
+import UseState2 from "./Hooks/UseState Hook/UseState2";
+import UseStateBasic from "./Hooks/UseState Hook/UseStateBasic";
+import UseStatewithArray from "./Hooks/UseState Hook/UseStatewithArray";
+import UseStatewithObject from "./Hooks/UseState Hook/UseStatewithObject";
 import AxiosBasics from "./HTTP/AxiosBasics";
 import AxiosBasicsPost from "./HTTP/AxiosBasicsPost";
 import LifeCycle from "./LifeCycle Methods/LifeCycle";
@@ -117,6 +121,16 @@ function App() {
       <AxiosBasics/>
       <br/>
       <AxiosBasicsPost/>
+      <br/>
+      <div style={{'textAlign': 'center'}}>
+        <h1>Hooks in React</h1>
+        <UseStateBasic/>
+        <UseState2/>
+        <br/>
+        <UseStatewithObject/>
+        <br/>
+        <UseStatewithArray/>
+      </div>
     </div>
   );
 }
