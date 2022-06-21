@@ -12,6 +12,7 @@ import Fragment from "./Fragments/Fragment";
 import Table from "./Fragments/Table";
 import ClickCounter from "./Higher Order Components/ClickCounter";
 import HoverCounter from "./Higher Order Components/HoverCounter";
+import UseEffectBasic from "./Hooks/UseEffect Hook/UseEffectBasic";
 import UseState2 from "./Hooks/UseState Hook/UseState2";
 import UseStateBasic from "./Hooks/UseState Hook/UseStateBasic";
 import UseStatewithArray from "./Hooks/UseState Hook/UseStatewithArray";
@@ -124,12 +125,16 @@ function App() {
       <br/>
       <div style={{'textAlign': 'center'}}>
         <h1>Hooks in React</h1>
+        <h2>UseState</h2>
         <UseStateBasic/>
         <UseState2/>
         <br/>
         <UseStatewithObject/>
         <br/>
         <UseStatewithArray/>
+        <br/>
+        <h2>UseEffect</h2>
+        <UseEffectBasic/>
       </div>
     </div>
   );
