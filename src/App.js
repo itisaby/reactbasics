@@ -19,6 +19,12 @@ import IndividualData from "./Hooks/UseEffect Hook/IndividualData";
 import IntervalHookCounter from "./Hooks/UseEffect Hook/IntervalHookCounter";
 import MouseContainer from "./Hooks/UseEffect Hook/MouseContainer";
 import UseEffectBasic from "./Hooks/UseEffect Hook/UseEffectBasic";
+import DataFetchingReducer from "./Hooks/UseReducer/DataFetchingReducer";
+import FetchingDatauseReducer from "./Hooks/UseReducer/FetchingDatauseReducer";
+import MultipleUseReducers from "./Hooks/UseReducer/MultipleUseReducers";
+import ReducerCounter from "./Hooks/UseReducer/ReducerCounter";
+import UseReducerBasics from "./Hooks/UseReducer/UseReducerBasics";
+import UseReducerwithContext from "./Hooks/UseReducer/UseReducerwithContext";
 import UseState2 from "./Hooks/UseState Hook/UseState2";
 import UseStateBasic from "./Hooks/UseState Hook/UseStateBasic";
 import UseStatewithArray from "./Hooks/UseState Hook/UseStatewithArray";
@@ -153,7 +159,22 @@ function App() {
         <br/>
         <IndividualData/>
         <br/>
+        <h2>UseContext Basics</h2>
         <UseContextBasics/>
+        <br/>
+        <h2>UseReducer Basics</h2> 
+        <UseReducerBasics/>
+        <br/>
+        <ReducerCounter/>
+        <br/>
+        <MultipleUseReducers/>
+        <br/>
+        <h3>Passing States in different components using useReducer and UseState</h3>
+        <UseReducerwithContext/>
+        <br/>
+        <FetchingDatauseReducer/>
+        <br/>
+        <DataFetchingReducer/>
       </div>
     </div>
   );
