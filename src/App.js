@@ -12,6 +12,7 @@ import Fragment from "./Fragments/Fragment";
 import Table from "./Fragments/Table";
 import ClickCounter from "./Higher Order Components/ClickCounter";
 import HoverCounter from "./Higher Order Components/HoverCounter";
+import UseContextBasics from "./Hooks/UseContext Hook/UseContextBasics";
 import DataFetching from "./Hooks/UseEffect Hook/DataFetching";
 import HookMouse from "./Hooks/UseEffect Hook/HookMouse";
 import IndividualData from "./Hooks/UseEffect Hook/IndividualData";
@@ -151,6 +152,8 @@ function App() {
         <DataFetching/>
         <br/>
         <IndividualData/>
+        <br/>
+        <UseContextBasics/>
       </div>
     </div>
   );
