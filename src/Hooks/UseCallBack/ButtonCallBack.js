@@ -1,11 +1,12 @@
 import React from 'react'
 
 function ButtonCallBack({handleClick, children}) {
+  console.log("ButtonCallBack is rendered", children)
   return (
-    <button onCLick={handleClick}>
+    <button onClick={handleClick}>
         {children}
     </button>
   )
 }
 
-export default ButtonCallBack
+export default React.memo(ButtonCallBack)

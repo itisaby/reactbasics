@@ -1,6 +1,7 @@
 import React from 'react'
 
 function CallBackCount({text, count}) {
+  console.log(`${text} is rendered`)
   return (
     <div>
         {text} - {count}
@@ -8,4 +9,4 @@ function CallBackCount({text, count}) {
   )
 }
 
-export default CallBackCount
+export default React.memo(CallBackCount)
