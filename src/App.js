@@ -20,6 +20,7 @@ import IndividualData from "./Hooks/UseEffect Hook/IndividualData";
 import IntervalHookCounter from "./Hooks/UseEffect Hook/IntervalHookCounter";
 import MouseContainer from "./Hooks/UseEffect Hook/MouseContainer";
 import UseEffectBasic from "./Hooks/UseEffect Hook/UseEffectBasic";
+import UseMemoBasics from "./Hooks/UseMemo/UseMemoBasics";
 import DataFetchingReducer from "./Hooks/UseReducer/DataFetchingReducer";
 import FetchingDatauseReducer from "./Hooks/UseReducer/FetchingDatauseReducer";
 import MultipleUseReducers from "./Hooks/UseReducer/MultipleUseReducers";
@@ -178,6 +179,9 @@ function App() {
         <DataFetchingReducer/>
         <br/>
         <UseCallBackBasics/>
+        <br/>
+        <h2>UseMemoBasics</h2>
+        <UseMemoBasics/>
       </div>
     </div>
   );
