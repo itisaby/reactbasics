@@ -27,6 +27,7 @@ import MultipleUseReducers from "./Hooks/UseReducer/MultipleUseReducers";
 import ReducerCounter from "./Hooks/UseReducer/ReducerCounter";
 import UseReducerBasics from "./Hooks/UseReducer/UseReducerBasics";
 import UseReducerwithContext from "./Hooks/UseReducer/UseReducerwithContext";
+import UseRefBasics from "./Hooks/UseRef/UseRefBasics";
 import UseState2 from "./Hooks/UseState Hook/UseState2";
 import UseStateBasic from "./Hooks/UseState Hook/UseStateBasic";
 import UseStatewithArray from "./Hooks/UseState Hook/UseStatewithArray";
@@ -182,6 +183,9 @@ function App() {
         <br/>
         <h2>UseMemoBasics</h2>
         <UseMemoBasics/>
+        <br/>
+        <h2>UseRef Basics</h2>
+        <UseRefBasics/>
       </div>
     </div>
   );
