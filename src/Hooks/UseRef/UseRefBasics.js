@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import HookTimer from './HookTimer'
 
 function UseRefBasics() {
     
@@ -14,6 +15,8 @@ function UseRefBasics() {
   return (
     <div>
         <input ref={inputRef} type="text"/>
+        <br/>
+        <HookTimer/>
     </div>
   )
 }
