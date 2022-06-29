@@ -2,6 +2,7 @@ import ConditionBasic from "./ConditionalRendering/ConditionBasic";
 import ElementVariables from "./ConditionalRendering/ElementVariables";
 import TernaryConditional from "./ConditionalRendering/TernaryConditional";
 import ContextBasics from "./Context/ContextBasics";
+import CustomHookBasic from "./Custom Hooks/CustomHookBasic";
 import ErrorBoundary from "./Error Boundary/ErrorBoundary";
 import Hero from "./Error Boundary/Hero";
 import BasicBinding from "./Events/BindingEvent/BasicBinding";
@@ -186,6 +187,10 @@ function App() {
         <br/>
         <h2>UseRef Basics</h2>
         <UseRefBasics/>
+      </div>
+      <div style={{"textAlign": "center"}}>
+        <CustomHookBasic/>
+
       </div>
     </div>
   );
